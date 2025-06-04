@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>spotter.ai</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Hand+Pre:wght@400..700&display=swap" rel="stylesheet">
+    <script src="js.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <!-- iconos -->
+
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    
+   
+    <!-- efecto gooey hover -->
+    <svg width="0" height="0">
+        <filter id="goo">
+          <feGaussianBlur in="SourceGraphic" stdDeviation="8" result="blur" />
+          <feColorMatrix in="blur" mode="matrix"
+            values="1 0 0 0 0
+                    0 1 0 0 0
+                    0 0 1 0 0
+                    0 0 0 18 -7"
+            result="goo" />
+          <feBlend in="SourceGraphic" in2="goo" />
+        </filter>
+      </svg>
+  
+</head>
+<body>
+
+    <!-- nav parecida  -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">
+                <div class="logo-icon">
+
+                
+                <svg width="62" height="62" viewBox="0 0 25 25" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="6" cy="16" r="3" fill="#ef4444"/>
+                    <circle cx="14" cy="12" r="2.5" fill="#10b981"/>
+                    <circle cx="22" cy="16" r="2" fill="#3b82f6"/>
+                    <circle cx="26" cy="20" r="1.5" fill="#8b5cf6"/>
+                  </svg>
+                  
+               
+                </div>
+                <span class="logo-text">spotter</span>
+            </a>
+            
+  
+        
+            <ul class="nav-links" id="navLinksAuto">
+                <li class="dropdown">
+                    <a href="#">Product</a>
+                    <div class="dropdown-content-margin">
+                        <div class="dropdown-content">
+                            <div class="dropdown-section">  
+                                <h3>Capabilities</h3>
+                                <ul>
+                                    <li><a href="#"><i class="ph ph-fingerprint"></i>Identification</a></li>
+                                    <li><a href="#"><i class="ph ph-cloud"></i>Smart signal</a></li>
+                                    <li><a href="#"><i class="ph ph-device-mobile"></i>Mobile device sign</a></li>
+                                </ul>
+                            </div>
+                            <div class="dropdown-section">
+                                <h3>Platform</h3>
+                                <ul>
+                                    <li><a href="#"><i class="ph ph-shopping-cart"></i>E-commerce</a></li>
+                                    <li><a href="#"><i class="ph ph-cloud"></i>SaaS</a></li>
+                                    <li><a href="#"><i class="ph ph-buildings"></i>Enterprise</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="#">Use Cases</a>
+                    <div class="dropdown-content-margin">
+                        <div class="dropdown-content">
+                            <div class="dropdown-section">
+                                <h3>Protect</h3>
+                                <ul>
+                                    <li><a href="#"><i class="ph ph-shopping-cart"></i>E-commerce</a></li>
+                                    <li><a href="#"><i class="ph ph-credit-card"></i>Fintech</a></li>
+                                    <li><a href="#"><i class="ph ph-heartbeat"></i>Healthcare</a></li>
+                                    <li><a href="#"><i class="ph ph-graduation-cap"></i>Education</a></li>
+                                </ul>
+                            </div>
+                            <div class="dropdown-section">
+                                <h3>Grow</h3>
+                                <ul>
+                                    <li><a href="#"><i class="ph ph-shield-check"></i>Account Security</a></li>
+                                    <li><a href="#"><i class="ph ph-credit-card"></i>Payment Protection</a></li>
+                                    <li><a href="#"><i class="ph ph-user-check"></i>User Verification</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="#">Developers</a>
+                    <div class="dropdown-content-margin">
+                        <div class="dropdown-content">
+                            <div class="dropdown-section">
+                                <ul>
+                                    <li><a href="#"><i class="ph ph-rocket"></i>Getting Started</a></li>
+                                    <li><a href="#"><i class="ph ph-code"></i>API Reference</a></li>
+                                    <li><a href="#"><i class="ph ph-package"></i>SDKs & Libraries</a></li>
+                                </ul>
+                            </div>
+                            <div class="dropdown-section">
+                                <ul>
+                                    <li><a href="#"><i class="ph ph-code-block"></i>Code Examples</a></li>
+                                    <li><a href="#"><i class="ph ph-book"></i>Best Practices</a></li>
+                                    <li><a href="#"><i class="ph ph-chart-line"></i>API Status</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="#">Resources</a>
+                    <div class="dropdown-content-margin">
+                        <div class="dropdown-content">
+                            <div class="dropdown-section">
+                                <ul>
+                                    <li><a href="#"><i class="ph ph-newspaper"></i>Blog</a></li>
+                                    <li><a href="#"><i class="ph ph-folder"></i>Case Studies</a></li>
+                                    <li><a href="#"><i class="ph ph-presentation"></i>Webinars</a></li>
+                                </ul>
+                            </div>
+                            <div class="dropdown-section">
+                                <ul>
+                                    <li><a href="#"><i class="ph ph-question"></i>Help Center</a></li>
+                                    <li><a href="#"><i class="ph ph-users"></i>Community</a></li>
+                                    <li><a href="#"><i class="ph ph-headset"></i>Contact Support</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="#">Demo</a>
+                    <div class="dropdown-content-margin">
+                        <div class="dropdown-content">
+                            <div class="dropdown-section">
+                                <ul>
+                                    <li><a href="#"><i class="ph ph-play-circle"></i>Live Demo</a></li>
+                                    <li><a href="#"><i class="ph ph-compass"></i>Interactive Tour</a></li>
+                                    <li><a href="#"><i class="ph ph-calendar-check"></i>Request Demo</a></li>
+                                </ul>
+                            </div>
+                            <div class="dropdown-section">
+                                <ul>
+                                    <li><a href="#"><i class="ph ph-code-simple"></i>Basic Integration</a></li>
+                                    <li><a href="#"><i class="ph ph-code"></i>Advanced Features</a></li>
+                                    <li><a href="#"><i class="ph ph-gear"></i>Custom Solutions</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li><a href="#">Pricing</a></li>
+                <div class="gooey-bg-auto" id="gooeyBgAuto"></div>
+            </ul>
+    
+            <!-- btnos -->
+            <div class="nav-actions">
+                <a href="#" class="btn btn-login">Login</a>
+                <button class="btn btn-contact" onclick="openModal()">Contact Sales</button>
+                <button class="btn btn-primary">Get Started</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Contenido -->
+    <main class="main-content">
+        <div class="hero-section">
+            <h1 class="hero-title">
+                The internet's most <span class="accent">accurate</span> visitor identifier
+            </h1>
+            <p class="hero-subtitle">
+                Industry-leading accuracy that lasts for months or years, even when cookies are cleared.
+            </p>
+            <button class="hero-button" onclick="openModal()">
+                Learn More
+            </button>
+        </div>
+    </main>
+
+    <!-- Modal -->
+    <div class="modal-overlay" id="modalOverlay" onclick="closeModal(event)">
+        <div class="modal" onclick="event.stopPropagation()">
+            <div class="modal-header">
+                <h2 class="modal-title">Contact Sales</h2>
+                <p class="modal-subtitle">Get in touch with our sales team</p>
+                <button class="close-btn" onclick="closeModal()">&times;</button>
+            </div>
+            
+            <div class="modal-body">
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label class="form-label" for="name">Full Name</label>
+                        <input type="text" id="name" class="form-input" placeholder="Your full name" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label class="form-label" for="email">Work Email</label>
+                        <input type="email" id="email" class="form-input" placeholder="you@company.com" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label class="form-label" for="company">Company</label>
+                        <input type="text" id="company" class="form-input" placeholder="Your company name" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label class="form-label" for="message">Message</label>
+                        <textarea id="message" class="form-input" rows="4" placeholder="Tell us about your needs..."></textarea>
+                    </div>
+                </form>
+            </div>
+            
+            <div class="modal-footer">
+                <button type="button" class="btn btn-cancel" onclick="closeModal()">
+                    Cancel
+                </button>
+                <button type="submit" class="btn btn-primary" onclick="submitForm()">
+                    Send Request
+                </button>
+            </div>
+        </div>
+    </div>
+
+
+    
+</body>
+</html>
